@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:first-app}",
+            "name": "Debug first-app",
+            "program": "${workspaceFolder:first-app}/.build/debug/first-app",
+            "preLaunchTask": "swift: Build Debug first-app"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:first-app}",
+            "name": "Release first-app",
+            "program": "${workspaceFolder:first-app}/.build/release/first-app",
+            "preLaunchTask": "swift: Build Release first-app"
+        }
+    ]
+}
